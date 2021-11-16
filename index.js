@@ -4,7 +4,6 @@ const number = function(busStops){
 
         numberOfPeopleInTheBus+=busStops[i][0]-busStops[i][1];
     }
-    console.log(numberOfPeopleInTheBus);
     document.getElementById("result").textContent=`${numberOfPeopleInTheBus} are still in the bus`;
     return numberOfPeopleInTheBus;
   }
